@@ -2,14 +2,16 @@ import './App.css';
 
 export default function App() {
   return (
-    <div className='flex-container'>
-      <Searchbar />
-    </div>
+    <header>
+      <SearchBar />
+    </header>
     
   );
 }
+function HomeButton(){
 
-function Searchbar(){
+}
+function SearchBar(){
   return(
     <input type='text' placeholder='search...'/>
   )
