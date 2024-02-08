@@ -6,8 +6,8 @@
 }
 header{
   display:flex;
-  height: 500px;
+  height: 103px;
   flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }

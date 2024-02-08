@@ -3,15 +3,18 @@ import './App.css';
 export default function App() {
   return (
     <header>
-      <HomeButton/>
+      <NavButton name={'Home'}/>
+      <NavButton name={'Menu'}/>
       <SearchBar />
+      <NavButton name={'Catering'}/>
+      <NavButton name={'About'}/>
     </header>
     
   );
 }
-function HomeButton(){
+function NavButton({name}){
   return(
-    <button>Home</button>
+    <button>{name}</button>
   );
 }
 function SearchBar(){
