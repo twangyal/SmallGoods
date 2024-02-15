@@ -11,12 +11,40 @@ header{
   justify-content: space-around;
   align-items: center;
 }
-.title-flex{
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
 .subtitle{
   font-size: .5vw;
   margin-top: -2vh;
+}
+.masthead{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.masthead-section1{
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: flex-start;
+}
+.fullplatter{
+  width: 541.517px;
+  height: 533.828px;
+  flex-shrink: 0;
+}
+.masthead-section2{
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+.description{
+  width: 790px;
+}
+.whitecube{
+  width: 197.613px;
+  height: 136.115px;
+  flex-shrink: 0;
+}
+.halfplatter{
+  width: 593px;
+  height: 878px;
+  flex-shrink: 0;
 }

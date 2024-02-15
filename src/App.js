@@ -5,21 +5,20 @@ import Home from './components/Home.js';
 import Menu from './components/Menu.js';
 import Catering from './components/Catering.js';
 import About from './components/About.js';
+
+import title from './resources/title.png'
  
 export default function App() {
   return (
     <Router>
       <header>
-        <Link to='/'>
+        <Link to='/home'>
           <NavButton name={'Home'}/>
         </Link>
         <Link to='/menu'>
           <NavButton name={'Menu'}/>
         </Link>
-        <div className='title-flex'>
-          <h1>smallgoods</h1>
-          <h2 className='subtitle'>AMERICAN CHEESES & PROVISIONS</h2>
-        </div>
+        <img alt='title' src={title} width='397px' height='102px' flex-shrink='0'/>
         <Link to='/catering'>
           <NavButton name={'Catering'}/>
         </Link>
@@ -28,7 +27,7 @@ export default function App() {
         </Link>
       </header>
       <Routes>
-        <Route path='/' exact Component={Home}/>
+        <Route path='/home'  Component={Home}/>
         <Route path='/menu' Component={Menu}/>
         <Route path='/catering' Component={Catering}/>
         <Route path='/about' Component={About}/>
@@ -41,8 +40,4 @@ function NavButton({name}){
     <button>{name}</button>
   );
 }
-function SearchBar(){
-  return(
-    <input type='text' placeholder='search...'/>
-  )
-}
+
