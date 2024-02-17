@@ -18,7 +18,7 @@ export default function App() {
         <Link to='/menu'>
           <NavButton name={'Menu'}/>
         </Link>
-        <img alt='title' src={title} width='397px' height='102px' flex-shrink='0'/>
+        <img alt='title' src={title} className='title'/>
         <Link to='/catering'>
           <NavButton name={'Catering'}/>
         </Link>

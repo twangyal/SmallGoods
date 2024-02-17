@@ -8,12 +8,11 @@ export default function Home(){
     return(
         <div className='masthead'>
             <div className='masthead-section1'>
-                <img alt=''src={dragfruit}width='336px' height='417px' flex-shrink='0'/>
+                <img alt=''src={dragfruit} className='dragfruit'/>
                 <img alt=''src={fullplatter} className='fullplatter'/>
             </div>
             <div className='masthead-section2'>
-                <img alt='title' src={title} width='451px' height='147px' flex-shrink='0'/>
-                <text className='description'>La Jolla-based cheese shop, cafe, and caterer of American farmstead cheese and cured meats</text>
+                <img alt='title' src={title} className='title2' />
             </div>
             <img alt='' src={whitecube} className='whitecube'/>
             <img alt='' src={halfplatter} className='halfplatter'/>
