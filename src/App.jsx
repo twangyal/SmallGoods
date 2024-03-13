@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
-import Home from './components/Home.js';
-import Menu from './components/Menu.js';
-import Catering from './components/Catering.js';
-import About from './components/About.js';
+import Home from './components/Home.jsx';
+import Menu from './components/Menu.jsx';
+import Catering from './components/Catering.jsx';
+import About from './components/About.jsx';
 
 import title from './resources/title.png'
  
