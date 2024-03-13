@@ -6,7 +6,6 @@ import Menu from './components/Menu.jsx';
 import Catering from './components/Catering.jsx';
 import About from './components/About.jsx';
 
-import title from './resources/title.png'
  
 export default function App() {
   return (
@@ -18,7 +17,7 @@ export default function App() {
         <Link to='/menu'>
           <NavButton name={'Menu'}/>
         </Link>
-        <img alt='title' src={title} className='title'/>
+        <Text_title/>
         <Link to='/catering'>
           <NavButton name={'Catering'}/>
         </Link>
@@ -40,4 +39,11 @@ function NavButton({name}){
     <button>{name}</button>
   );
 }
-
+function Text_title(){
+  return(
+      <div className='title'>
+          <h1>smallgoods</h1>
+          <h3>AMERICAN CHEESES & PROVISIONS</h3>
+      </div>
+  );
+}

@@ -4,6 +4,12 @@
 .input{
   text-align: center;
 }
+
+h3{
+  font-size: 8px;
+  font-weight: 200;
+  margin-top: -20px;
+}
 header{
   display:flex;
   height: 70px;
@@ -12,11 +18,10 @@ header{
   align-items: center;
 }
 .title{
-  width:20vw;
-  height:12vh;
-  flex-shrink: 0;
+  display : flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
-
 .masthead{
   display: flex;
   flex-flow: row nowrap;
@@ -44,12 +49,7 @@ header{
   flex-flow: column nowrap;
 
 }
-.title2{
-  width: 22vw;
-  height: 16vh;
-  margin-top: 10vh;
-  flex-shrink: 0;
-}
+
 .description{
   width: 790px;
 }

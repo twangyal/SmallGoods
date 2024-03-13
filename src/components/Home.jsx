@@ -1,6 +1,5 @@
 import dragfruit from '../resources/dfruit.png'
 import fullplatter from '../resources/Full platter.png'
-import title from '../resources/title2.png'
 import halfplatter from '../resources/Halfplatter.png'
 import whitecube from '../resources/whitecube.png'
 
@@ -12,10 +11,19 @@ export default function Home(){
                 <img alt=''src={fullplatter} className='fullplatter'/>
             </div>
             <div className='masthead-section2'>
-                <img alt='title' src={title} className='title2' />
+                <h1>HELOOOOOO</h1>
+                <Text_title/>
             </div>
             <img alt='' src={whitecube} className='whitecube'/>
             <img alt='' src={halfplatter} className='halfplatter'/>
         </div>
     )
+}
+function Text_title(){
+    return(
+        <div className='title'>
+            <h1>smallgoods</h1>
+            <h3>American Cheeses & Provisions</h3>
+        </div>
+    );
 }
