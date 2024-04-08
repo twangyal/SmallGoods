@@ -1,15 +1,18 @@
 .App {
   text-align: center;
 }
-.input{
-  text-align: center;
+.bold{
+  font-weight: bold;
 }
-
-h3{
+h1{
+  font-weight: 400;
+}
+h2{
   font-size: 8px;
   font-weight: 200;
   margin-top: -20px;
 }
+
 header{
   display:flex;
   height: 70px;

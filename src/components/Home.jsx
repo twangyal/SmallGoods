@@ -11,7 +11,6 @@ export default function Home(){
                 <img alt=''src={fullplatter} className='fullplatter'/>
             </div>
             <div className='masthead-section2'>
-                <h1>HELOOOOOO</h1>
                 <Text_title/>
             </div>
             <img alt='' src={whitecube} className='whitecube'/>
@@ -22,8 +21,10 @@ export default function Home(){
 function Text_title(){
     return(
         <div className='title'>
-            <h1>smallgoods</h1>
-            <h3>American Cheeses & Provisions</h3>
+            <>
+            <h1>small<span className='bold'>goods</span></h1>
+            </>
+            <h2>American Cheeses & Provisions</h2>
         </div>
     );
 }

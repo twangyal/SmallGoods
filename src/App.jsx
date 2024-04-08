@@ -42,8 +42,8 @@ function NavButton({name}){
 function Text_title(){
   return(
       <div className='title'>
-          <h1>smallgoods</h1>
-          <h3>AMERICAN CHEESES & PROVISIONS</h3>
+          <h1>small<span className='bold'>goods</span></h1>
+          <h2>AMERICAN CHEESES & PROVISIONS</h2>
       </div>
   );
 }
