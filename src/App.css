@@ -1,21 +1,8 @@
 .App {
   text-align: center;
 }
-.bold{
-  font-weight: bold;
-}
-h1{
-  font-weight: 400;
-}
-h2{
-  font-size: 8px;
-  font-weight: 200;
-  margin-top: -20px;
-}
-
 header{
   display:flex;
-  height: 70px;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
@@ -25,16 +12,40 @@ header{
   flex-flow: column nowrap;
   align-items: center;
 }
-.masthead{
+.horizontal-spacebetween{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-.masthead-section1{
+.horizontal-spacearound{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.vertical-start{
   display: flex;
   flex-flow: column nowrap;
   align-self: flex-start;
 }
+.vertical-center{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.storeHours{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.footer{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top : 30px;
+  margin-bottom: 30px;
+}
+
+
 .dragfruit{
   width:18vw;
   height:42vh;
@@ -42,17 +53,6 @@ header{
   margin-left:1vw;
   margin-bottom: -2vh;
 }
-.fullplatter{
-  width: 23vw;
-  height: 50vh;
-  flex-shrink: 0;
-}
-.masthead-section2{
-  display: flex;
-  flex-flow: column nowrap;
-
-}
-
 .description{
   width: 790px;
 }
@@ -65,58 +65,17 @@ header{
   flex-shrink: 0;
 }
 .grape{
-  width: 10vw;
-  height: 18vh;
-  margin-left: 18vw;
-  margin-right: -3vw;
-  margin-top: 6vh;
-  flex-shrink: 0;
+  
 }
 .downarrow{
-  width: 10vw;
-  height: 18vh;
-  margin-left: 18vw;
-  margin-right: -3vw;
-  margin-top: 6vh;
-  flex-shrink: 0;
 }
 .halfplatter{
   width: 30vw;
   height: 90vh;
   flex-shrink: 0;
 }
-.ourStory{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.whereToFindUs{
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-}
-.whereSection{
-  display: flex;
-  flex-flow: column nowrap;
-  
-}
-.storeHoursCol{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-.storeHours{
-  display: flex;
-  flex-flow: column nowrap;
-}
-.followAlong{
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-.footer{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+.fullplatter{
+  width: 23vw;
+  height: 50vh;
+  flex-shrink: 0;
 }
