@@ -11,13 +11,13 @@ export default function App() {
   return (
     <Router>
       <header>
-        <Link to='/home'>
+        <Link to='/mysite'>
           <NavButton name={'Home'}/>
         </Link>
         <Link to='/menu'>
           <NavButton name={'Menu'}/>
         </Link>
-        <Text_title/>
+        <TextTitle/>
         <Link to='/catering'>
           <NavButton name={'Catering'}/>
         </Link>
@@ -26,7 +26,7 @@ export default function App() {
         </Link>
       </header>
       <Routes>
-        <Route path='/home'  Component={Home}/>
+        <Route path='/mysite'  Component={Home}/>
         <Route path='/menu' Component={Menu}/>
         <Route path='/catering' Component={Catering}/>
         <Route path='/about' Component={About}/>
@@ -39,7 +39,7 @@ function NavButton({name}){
     <button>{name}</button>
   );
 }
-function Text_title(){
+function TextTitle(){
   return(
       <div className='title'>
           <h1>small<span className='bold'>goods</span></h1>

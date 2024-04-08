@@ -64,8 +64,59 @@ header{
   margin-top: 6vh;
   flex-shrink: 0;
 }
+.grape{
+  width: 10vw;
+  height: 18vh;
+  margin-left: 18vw;
+  margin-right: -3vw;
+  margin-top: 6vh;
+  flex-shrink: 0;
+}
+.downarrow{
+  width: 10vw;
+  height: 18vh;
+  margin-left: 18vw;
+  margin-right: -3vw;
+  margin-top: 6vh;
+  flex-shrink: 0;
+}
 .halfplatter{
   width: 30vw;
   height: 90vh;
   flex-shrink: 0;
+}
+.ourStory{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.whereToFindUs{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+.whereSection{
+  display: flex;
+  flex-flow: column nowrap;
+  
+}
+.storeHoursCol{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.storeHours{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.followAlong{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
