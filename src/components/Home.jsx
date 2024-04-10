@@ -89,30 +89,42 @@ function TextTitle(){
 //store hours chart
 function StoreHoursChart(){
     return(
-    <>
-        <h3>Store Hours</h3>
-        <div className='horizontal-spacearound'>
-            <div className='storeHours'>
-                <p>Monday</p>
-                <p>Tuesday</p>
-                <p>Wednesday</p>
-                <p>Thursday</p>
-                <p>Friday</p>
-                <p>Saturday</p>
-                <p>Sunday</p>
-            </div>
-            <div className='storeHours'>
-                <p>CLOSED</p>
-                <p>9AM - 5PM</p>
-                <p>9AM - 5PM</p>
-                <p>9AM - 5:30PM</p>
-                <p>9AM - 5:30PM</p>
-                <p>9AM - 5PM</p>
-                <p>CLOSED</p>
-            </div>
-        </div>
-        <h3>(Every other Sunday, we are located at the Farmer's Market from 9 AM - 1 PM) </h3>
-    </>
+        <table>
+            <tr>
+                <th colSpan={"2"} style={{paddingTop:"40px"}}>Store Hours</th>
+            </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>CLOSED</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9am - 5pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9am - 5pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>9am - 5:30pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9am - 5:30pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9am - 5pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>CLOSED</td>
+                </tr>
+                <tr>
+                    <td colSpan="2" style={{paddingTop:"20px",paddingBottom:"40px"}}>(Every other Sunday, we are located at the Farmer's Market from 9 AM - 1 PM) </td>
+                </tr>
+        </table>        
     )
 }
 //media gallery

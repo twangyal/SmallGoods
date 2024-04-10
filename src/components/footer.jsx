@@ -13,10 +13,10 @@ export default function Footer(){
         <div className='footer'>
                 <TextTitle/>
                 <div>
-                    <p style={{fontWeight:"bold"}}>Hours</p>
-                    <p style={{fontWeight:"bold"}}>Locations</p>
+                    <h3>Hours</h3>
+                    <h3 style={{fontWeight:"bold"}}>Locations</h3>
                 </div>
-                <div className='vertical-center'>
+                <div className='footer-connect'>
                     <h3>Connect With Us</h3>
                     <p>(858) 886-7217</p>
                     <p>info@smallgoodsusa.com</p>
@@ -38,7 +38,7 @@ export default function Footer(){
 
 function TextTitle(){
     return(
-        <div className='title'>
+        <div className='title' style={{alignSelf:"center"}}>
             <>
             <h1 style={{fontWeight:"normal"}}>small<span style={{fontWeight:'bold'}}>goods</span></h1>
             </>

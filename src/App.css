@@ -7,10 +7,27 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+table {
+  border-collapse: collapse; /* Collapse borders into a single border */
+  outline: 1px solid black; /* Add outline around the whole table */
+  border-collapse: collapse; /* Collapse borders between cells */
+  width: 60%;
+}
+td{
+  padding: 4px;
+  padding-left: 50px;
+}
+
+
 .title{
   display : flex;
   flex-flow: column nowrap;
   align-items: center;
+}
+.horizontal-center{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 .horizontal-spacebetween{
   display: flex;
@@ -38,13 +55,31 @@ header{
 }
 .footer{
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 80px;
   margin-top : 30px;
   margin-bottom: 30px;
 }
+.footer-connect{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    gap:0px;
+    align-items: flex-start;
 
+     /* Switch to a column layout on screens smaller than 768px */
+  }
+  .footer-connect{
+    margin-top: -15px;
+    align-items: flex-start;
+  }
+}
 
 .dragfruit{
   width:18vw;
