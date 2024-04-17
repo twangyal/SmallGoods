@@ -1,116 +1,278 @@
 .App {
   text-align: center;
 }
-header{
-  display:flex;
+
+header {
+  display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
 }
+
 table {
-  border-collapse: collapse; /* Collapse borders into a single border */
-  outline: 1px solid black; /* Add outline around the whole table */
-  border-collapse: collapse; /* Collapse borders between cells */
+  border-collapse: collapse;
+  /* Collapse borders into a single border */
+  outline: 1px solid black;
+  /* Add outline around the whole table */
+  border-collapse: collapse;
+  /* Collapse borders between cells */
   width: 60%;
 }
-td{
+
+td {
   padding: 4px;
   padding-left: 50px;
 }
 
-
-.title{
-  display : flex;
+.title {
+  display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
-.horizontal-center{
+
+.horizontal-center {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
 }
-.horizontal-spacebetween{
+
+.horizontal-spacebetween {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-.horizontal-spacearound{
+
+.horizontal-spacearound {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
-.vertical-start{
+
+.vertical-start {
   display: flex;
   flex-flow: column nowrap;
   align-self: flex-start;
 }
-.vertical-center{
+
+.vertical-center {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
-.storeHours{
+
+.storeHours {
   display: flex;
   flex-flow: column nowrap;
 }
-.footer{
+
+.footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   gap: 80px;
-  margin-top : 30px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
-.footer-connect{
+
+.footer-connect {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
+
 @media (max-width: 767px) {
   .footer {
     flex-direction: column;
-    gap:0px;
+    gap: 0px;
     align-items: flex-start;
-
-     /* Switch to a column layout on screens smaller than 768px */
+    /* Switch to a column layout on screens smaller than 768px */
   }
-  .footer-connect{
+
+  .footer-connect {
     margin-top: -15px;
     align-items: flex-start;
   }
 }
 
-.dragfruit{
-  width:18vw;
-  height:42vh;
-  flex-shrink:0;
-  margin-left:1vw;
+.dragfruit {
+  width: 18vw;
+  height: 42vh;
+  flex-shrink: 0;
+  margin-left: 1vw;
   margin-bottom: -2vh;
 }
-.description{
+
+.description {
   width: 790px;
 }
-.whitecube{
-  width: 10vw;
-  height: 18vh;
-  margin-left: 18vw;
-  margin-right: -3vw;
-  margin-top: 6vh;
-  flex-shrink: 0;
+
+.whitecube {
+  width: 200px;
+  height: 175px;
+  position: absolute;
+  top: 150px;
+  left: 1175px;
+  transform: rotate(15deg);
 }
-.grape{
-  
+
+.grape {
+  width: 138px;
+  height: 113px;
+  position: absolute;
+  top: 800px;
+  left: 385px;
 }
-.downarrow{
+
+.downarrow {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 800px;
+  left: 800px;
 }
-.halfplatter{
+
+.halfplatter {
   width: 30vw;
   height: 90vh;
   flex-shrink: 0;
 }
-.fullplatter{
+
+.fullplatter {
   width: 23vw;
   height: 50vh;
   flex-shrink: 0;
+}
+
+.employeePic {
+  width: 541px;
+  height: 379px;
+  margin-top: 30px;
+  margin-left: -10px;
+}
+
+.ourStory-text {
+  font-size: 26px;
+  font-weight: 400;
+  width: 800px;
+  height: 169px;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+.menu-container {
+  margin-top: 100px;
+}
+
+.title-container {
+  position: relative;
+  right: 310px;
+}
+
+.title-heading {
+  font-weight: normal;
+  font-size: 50px;
+  color: green;
+}
+
+.title-bold {
+  font-weight: bold;
+}
+
+.title-subheading {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: -20px;
+  color: green;
+}
+
+.whitecube {
+  width: 200px;
+  height: 175px;
+  position: absolute;
+  top: 150px;
+  left: 1175px;
+  transform: rotate(15deg);
+}
+
+.menu-description {
+  color: black;
+  font-size: 50px;
+  margin: 1px 0;
+}
+
+.menu-description-green {
+  color: green;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.button-container {
+  position: relative;
+  right: 250px;
+  color-scheme: green;
+}
+
+.green-button {
+  background-color: rgb(93, 129, 93);
+  color: white;
+  width: 173px;
+  height: 65px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.black-button {
+  background-color: black;
+  color: green;
+  width: 173px;
+  height: 65px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.where-to-find {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87.42px;
+  position: absolute;
+  left: 607px;
+}
+.where-to-find {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87.42px;
+  position: absolute;
+  left: 607px;
+}
+.physical-store {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 43.71px;
+  position: absolute;
+
+  margin-top: 200px;
+}
+.store-location {
+  width: 712px;
+  height: 182px;
+  top: 286px;
+  left: 131px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35.52px;
+  margin-top: 270px;
+}
+.farmermarket{
+  width: 712px;
+  left: 131px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35.52px;
 }

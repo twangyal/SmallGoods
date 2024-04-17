@@ -40,10 +40,14 @@ function NavButton({name}){
   );
 }
 function TextTitle(){
-  return(
-      <div className='title'>
-          <h1 style={{fontWeight:"normal"}}>small<span style={{fontWeight:'bold'}}>goods</span></h1>
-          <h2 style={{fontSize:'8px',fontWeight:'200',marginTop:'-20px'}}>AMERICAN CHEESES & PROVISIONS</h2>
-      </div>
+  return (
+    <div className='title'>
+      <h1 style={{ fontWeight: "normal", fontSize: "40px", color: "green" }}>
+        small<span style={{ fontWeight: 'bold' }}>goods</span>
+      </h1>
+      <h2 style={{ fontSize: '14px', fontWeight: '200', marginTop: '-20px', color: 'green' }}>
+        AMERICAN CHEESES & PROVISIONS
+      </h2>
+    </div>
   );
 }
