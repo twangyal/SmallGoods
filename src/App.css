@@ -276,3 +276,107 @@ td {
   font-size: 26px;
   line-height: 35.52px;
 }
+
+.cateringcarousel{
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 64px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 92px;
+}
+
+.catering-spacing{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-sizing: border-box;
+}
+
+.catering-h1{
+  color: var(--Primary-Green, #5E9370);
+  font-family: Avenir, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 350; 
+  line-height: normal;
+}
+
+.catering-h2{
+  color: var(--Primary-Green, #5E9370);
+  font-family: Avenir, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 350; 
+  line-height: normal;
+}
+
+.catering-h3{
+  color: var(--Primary-Green, #5E9370);
+  font-family: Avenir, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900; 
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.body-1{
+  color: var(--green-text, #000);
+  /* Body 1 - Avenir */
+  font-family: Avenir;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+
+.primary-green{
+  --green-text: var(--Primary-Green, #5E9370);
+}
+
+.TOS-1{
+  max-width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.TOS-2{
+  width: 686px;
+  height: 440px;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.catering-spacearound{
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  
+}
+
+.catering-pair{
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.TOS-spacearound{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.TOS-text{
+  flex: 1;
+  padding-right: 80px;
+}
